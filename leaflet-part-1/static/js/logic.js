@@ -7,8 +7,8 @@ let map_tiles = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png'
 
 // create the map
 let map = L.map("map", {
-    center: [40.5, -94.5],
-    zoom: 3
+    center: [20, -30],
+    zoom: 2.5
   });
 
 // add tiles
