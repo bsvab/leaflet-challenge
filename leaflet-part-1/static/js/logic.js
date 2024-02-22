@@ -84,7 +84,7 @@ d3.json(url).then(function(data){
         let div = L.DomUtil.create("div", "info legend");
 
         let depths = [-10, 10, 30, 50, 70, 90];
-        let colors = ["red", "orange", "yellow", "green", "blue", "purple"];
+        let colors = ["purple", "blue", "green", "yellow", "orange", "red"];
 
         for (let i = 0; i < depths.length; i++){
             div.innerHTML += "<i style= 'background: " + colors[i] + "'></i> " + depths[i] + (depths[i+1] ? "&ndash;" + depths[i+1] + "<br>" : "+");
